@@ -51,7 +51,7 @@
 
             <div class="modal-footer">
                 <button type="button" class="btn bg-gradient-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="submit" class="btn bg-gradient-primary">Submit</button>
+                <button type="submit" class="btn bg-gradient-success">Submit</button>
               </div>
         </form>
       </div>

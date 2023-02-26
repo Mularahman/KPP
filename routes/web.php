@@ -26,6 +26,7 @@ use App\Http\Controllers\DashboardController;
 */
 
 
+route::get('/', [LoginController::class, 'index'])->middleware('guest');
 route::get('/login', [LoginController::class, 'index'])->middleware('guest')->name('login');
 route::post('/loginuser', [LoginController::class, 'login']);
 route::post('/logout', [LoginController::class, 'logout'])->middleware('auth');
